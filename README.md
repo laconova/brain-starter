@@ -11,4 +11,15 @@ Plain text files. Works with any AI agent that can read a folder.
 Not using Claude? `AGENTS.md` points every other agent (Codex, Gemini CLI, local models) to the same rules.
 Click **Use this template** on GitHub, or download the ZIP, and start with `state.md` tonight.
 
+## Weekly trim by hand
+
+No server needed. Once a week, paste this to your AI:
+
+```text
+Move everything older than two weeks from the changelog into an archive file, word for word.
+Then go through the state together and check what's still true.
+```
+
+Keep the archive under `archive/`, for example `archive/changelog-2026-W42.md`. Nothing gets summarized and nothing gets deleted, it only moves.
+
 From the Laconova Labs video "Build your brain before your tools".
